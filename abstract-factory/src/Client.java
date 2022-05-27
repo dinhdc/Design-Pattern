@@ -1,7 +1,6 @@
 import material.AbstractMaterialFactory;
 import material.Material;
 import material.MaterialProducer;
-import material.PlasticTable;
 import shape.AbstractFactory;
 import shape.FactoryProducer;
 import shape.Shape;
