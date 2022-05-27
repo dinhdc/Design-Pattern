@@ -21,10 +21,10 @@ Use the Abstract Factory pattern when:
 ## Participants
 
 
-* AbstractFactory: declares an interface for operations that create abstract product objects.
-* ConcreteFactory: implements the operations to create concrete product objects.
-* AbstractProduct: declares an interface for type of product object.
-* ConcreteProduct: 
+* **AbstractFactory**: declares an interface for operations that create abstract product objects.
+* **ConcreteFactory**: implements the operations to create concrete product objects.
+* **AbstractProduct**: declares an interface for type of product object.
+* **ConcreteProduct**: 
   * defines a product object to be created by the corresponding concrete factory.
   * implements the AbstractProduct interface.
 * Client: uses only interfaces declares by **AbstractFactory** and **AbstractProduct** classes.
