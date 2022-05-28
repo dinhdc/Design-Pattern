@@ -29,7 +29,7 @@ Use the Abstract Factory pattern when:
 
 ## Benefits and liabilities:
 
-_It isolates concrete classes_
-_It makes exchanging product families easy_
-_It promotes consistency among products_
-_Supporting new kinds of products is **difficult**_
+* _It isolates concrete classes_
+* _It makes exchanging product families easy_
+* _It promotes consistency among products_
+* _Supporting new kinds of products is **difficult**_
