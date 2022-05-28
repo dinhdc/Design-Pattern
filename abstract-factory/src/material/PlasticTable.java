@@ -5,4 +5,9 @@ public class PlasticTable implements Material{
     public void getProductName() {
         System.out.println("PlasticTable: getProductName() method");
     }
+
+    @Override
+    public void getPrice() {
+        System.out.println("Plastic Table: $100");
+    }
 }

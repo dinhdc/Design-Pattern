@@ -5,4 +5,9 @@ public class WoodChair implements Material{
     public void getProductName() {
         System.out.println("WoodChair: getProductName() method");
     }
+
+    @Override
+    public void getPrice() {
+        System.out.println("WoodChair: $25");
+    }
 }

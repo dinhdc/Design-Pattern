@@ -34,14 +34,15 @@ public class Client {
     }
 
     public static void testMaterial(){
-        //get shape factory
-        AbstractMaterialFactory materialFactory = MaterialProducer.getFactory("Plastic");
-        //get an object of plastic table
-        assert materialFactory != null;
-        Material table = materialFactory.getProduct("Table");
-        Material chair = materialFactory.getProduct("Chair");
-        chair.getProductName();
-        table.getProductName();
+        AbstractMaterialFactory plasticFactory = MaterialProducer.getFactory("Plastic");
+        AbstractMaterialFactory woodFactory = MaterialProducer.getFactory("Wood");
+        assert plasticFactory != null;
+        Material plasticTable = plasticFactory.getProduct("Table");
+        assert woodFactory != null;
+        Material woodTable = woodFactory.getProduct("Table");
+        plasticTable.getProductName();
+        plasticTable.getPrice();
+        woodTable.getPrice();
     }
 
 }
