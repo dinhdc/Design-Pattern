@@ -1,13 +1,12 @@
 # Abstract Factory (Creational Patterns)
 
-
 ## Intent
 
 Provide an interface for creating families of related or dependent objects without specifying their concrete classes
 
 ## Also Known As
-Kit
 
+Kit
 
 ## Applicability
 
@@ -20,7 +19,6 @@ Use the Abstract Factory pattern when:
 
 ## Participants
 
-
 * **AbstractFactory**: declares an interface for operations that create abstract product objects.
 * **ConcreteFactory**: implements the operations to create concrete product objects.
 * **AbstractProduct**: declares an interface for type of product object.
@@ -28,3 +26,10 @@ Use the Abstract Factory pattern when:
   * defines a product object to be created by the corresponding concrete factory.
   * implements the AbstractProduct interface.
 * Client: uses only interfaces declares by **AbstractFactory** and **AbstractProduct** classes.
+
+## Benefits and liabilities:
+
+_It isolates concrete classes_
+_It makes exchanging product families easy_
+_It promotes consistency among products_
+_Supporting new kinds of products is **difficult**_
